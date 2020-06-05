@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/Map.css">
+    <title>NYC Airbnb Visualizatoin</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script type='text/javascript' src='Scripts/deb/background/Nyc_Map.js'></script>
+    <script type='text/javascript' src='Scripts/deb/background/CartoMap.js'></script>
+    <script type='text/javascript' src='Scripts/deb/helper/priceColorConverter.js'></script>
+    <script type="text/javascript" src="Scripts/deb/interaction/Interaction.js"></script>
+    <script type="text/javascript" src="Scripts/deb/background/setUpButton.js"></script>
+    <script type='text/javascript' src='Scripts/deb/interaction/mapButton.js'></script>
+    <script type="text/javascript" src="Scripts/deb/background/scatterPlot.js"></script>
+    <script type="text/javascript" src="Scripts/deb/interaction/replot.js"></script>
+
+  </head>
+  <body style = "text-align:justify;">
+    <h1 style="text-align:center;font-size:40px;">New York City Airbnb Map Visualization</h1>
+    <div id="main">
+        <div  id="map" style="width:50%; float:left"></div>
+      <div id="dataVisual" style = "width:50%; float:right;"></div>
+    </div>
+    <script>
+       plot_NY_map();
+       setUpButton();
+       Interaction();
+       scatterPlot();
+    </script>
+
+  </body>
+
+</html>
