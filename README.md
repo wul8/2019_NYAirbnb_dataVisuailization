@@ -9,10 +9,10 @@ are the important contributors to the price and what attributes the customers mo
 run the code, run the following command in the root directory: python -m http.server
 
 ## Visualization List
-![] (img/Highlights.gif)
-![] (img/MapInteraction.gif)
-![] (img/selection.png)
-![] (img/selectionGIF.gif)
+![](img/Highlights.gif)
+![](img/MapInteraction.gif)
+![](img/selection.png)
+![](img/selectionGIF.gif)
 
 ## Dependencies
 Jquery - simplify HTML DOM tree traversal and manipulation, event handling and CSS <br/>
