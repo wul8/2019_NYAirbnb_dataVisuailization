@@ -25,6 +25,7 @@ function plot_NY_map(){
 
     var pathGroup = svg.append('g').attr('id','path')
 
+    // plot the New York map
     d3.json("data/nyc.json", function(error, nyc) {
         if (error) throw error;
 
@@ -32,7 +33,7 @@ function plot_NY_map(){
                               .parallels([33, 45])
                               .rotate([96, -39])
                               .fitSize([width, height], nyc)
-
+        // plot the boundary of neighbourhood
         var path = d3.geoPath()
                      .projection(projection)
 

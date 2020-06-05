@@ -1,11 +1,21 @@
 function moveDown(svg){
-      // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
+    /**
+    * move svg down 10px
+    * @param  svg: targeted svg to be moved
+    * @return None
+    */
+    // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
     var viewBox = svg.attr("viewBox").split(" ").map(function(item){ return parseInt(item,10)})
     viewBox[1] = viewBox[1] -10;
     svg.attr("viewBox", viewBox[0]+" "+viewBox[1]+" "+viewBox[2]+" "+viewBox[3])
 }
 
 function moveLeft(svg){
+    /**
+    * move svg left 10px
+    * @param  svg: targeted svg to be moved
+    * @return None
+    */
     // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
     var viewBox = svg.attr("viewBox").split(" ").map(function(item){ return parseInt(item,10)})
     viewBox[0] = viewBox[0] + 10;
@@ -13,6 +23,11 @@ function moveLeft(svg){
 }
 
 function moveRight(svg){
+    /**
+    * move svg right 10px
+    * @param  svg: targeted svg to be moved
+    * @return None
+    */
     // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
     var viewBox = svg.attr("viewBox").split(" ").map(function(item){ return parseInt(item,10)})
     viewBox[0] = viewBox[0] - 10;
@@ -20,6 +35,11 @@ function moveRight(svg){
 }
 
 function moveUp(svg){
+    /**
+    * move svg up 10px
+    * @param  svg: targeted svg to be moved
+    * @return None
+    */
     // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
     var viewBox = svg.attr("viewBox").split(" ").map(function(item){ return parseInt(item,10)})
     viewBox[1] = viewBox[1] + 10;
@@ -27,6 +47,11 @@ function moveUp(svg){
 }
 
 function zoomIn(svg){
+    /**
+    * zoom in svg by 2
+    * @param  svg: targeted svg to be zoomed
+    * @return None
+    */
     // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
     var viewBox = svg.attr("viewBox").split(" ").map(function(item){ return parseInt(item,10)})
     viewBox[0] = viewBox[0] + viewBox[2] / 4;
@@ -40,6 +65,11 @@ function zoomIn(svg){
 }
 
 function zoomOut(svg){
+    /**
+    * zoom out svg by 2
+    * @param  svg: targeted svg to be zoomed
+    * @return None
+    */
     // viewBox.x = viewBox[0] viewBox.y = viewBox[1] viewBox.width = viewBox[2] viewBox.height = viewBox[3]
     var viewBox = svg.attr("viewBox").split(" ").map(function(item){ return parseInt(item,10)})
     viewBox[0] = viewBox[0] - viewBox[2]/2;

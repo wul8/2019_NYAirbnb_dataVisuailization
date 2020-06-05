@@ -1,5 +1,5 @@
    function replot(xTag,yTag,data){
-                /**
+            /**
             * Select two features of the dataset,  update the visualization on the scatter plot
             * @param  xTag: Name of the feature plotted on the x axis
             * @param  yTag: Name of the feature plotted on the y axis

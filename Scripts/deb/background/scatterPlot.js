@@ -26,6 +26,8 @@ function scatterPlot(){
                     selectionY.append('option').text(key)
              }
         })
+
+        // selection trigger
         VisDiv.append('div').attr("id","scatterPlot")
         $("#selectionX").on("change", function() {
                                          X = $("#selectionX option:selected").text()
