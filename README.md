@@ -1,32 +1,21 @@
 # 2019 New York Airbnb Visualization </h>
 
 ##Getting Started
-
-
-##Prerequisites
-What things you need to install the software and how to install them
+The project will focus on the visualization and analysis of the New York City Airbnb Dataset. 
+This data file includes all the needed information to find out more about hosts, geographical 
+availability, necessary metrics to make predictions and draw conclusions. We would like to the 
+visualization can help find out the relationships between the attributes of Airbnb, such as what 
+are the important contributors to the price and what attributes the customers most care about.To
+run the code, run the following command in the root directory: python -m http.server
 
 ##Visualization List
 
 ##Built With
-Javascript - The web framework used <br/>
-HTML - Dependency Management <br/>
-Jquery - Used to generate RSS Feeds <br/>
-
-##Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-##Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+Jquery - simplify HTML DOM tree traversal and manipulation, event handling and CSS <br/>
+D3 - producing dynamic, interactive data visualizations <br/> 
+CSS - describing the presentation of a document <br/>
 
 ##Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-##License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-##Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+Jiayao Wang,
+Liu Wu,
+Heyin Yu,
