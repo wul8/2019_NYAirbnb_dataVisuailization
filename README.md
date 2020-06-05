@@ -9,9 +9,13 @@ are the important contributors to the price and what attributes the customers mo
 run the code, run the following command in the root directory: python -m http.server
 
 ## Visualization List
+#### Dot map indicates the location as well as the price of the airbnb house. The redder the house, the higher the price.
 ![](img/Highlight.gif)
+#### The dot map also supports move up, move down, move right, move left, zoom in and zoom out.
 ![](img/MapInteraction.gif)
+#### support selecting tags of two axis
 ![](img/selection.png)
+#### visualize the relationship between two features by a scatterplot
 ![](img/selectionGIF.gif)
 
 ## Dependencies
